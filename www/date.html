@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0115c6c1f3.js"></script>
+    <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <title>Blog</title>
+</head>
+<body onload="bodyOnload()">
+
+<div class="menu">
+    <div id="cancel">
+        <i class="fa fa-times cancel" aria-hidden="true"></i>
+    </div>
+    <div id="a-menu">
+        <ul>
+            <li><a href="#">TOÁN</a></li>
+            <li><a href="#">LÝ</a></li>
+            <li><a href="#">HÓA</a></li>
+            <li><a href="#">SINH</a></li>
+            <li><a href="#">ANH</a></li>
+            <li><a href="#">KHÁC</a></li>
+        </ul>
+    </div>
+</div><!-- /.menu -->
+
+<div class="menu-fixed-home">
+    <img src="assets/img/package.png" alt="">
+</div>
+
+<a class="logo" href="index.html"><img src="http://tungtung.vn/images/logo.png" alt=""></a><!-- Logo -->
+
+
+<div class="list-items">
+    <div class="title">OCT 23</div>
+    <hr class="hr-1">
+    <div class="grid space">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Nov 23</div>
+                    <a class="title" href="/blog.html">Forum Fronting</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">Jacob angel</div>
+                    <div class="entry-content"><p>Every other Wednesday, the Frontend Engineers at Squarespace convene in a large room to hash out these issues. We discuss and shop around new technologies and patterns. We decide which haircuts to give our yaks, and what shade of gray looks best on our bike shed.
+                    </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Nov 1</div>
+                    <a href="/blog.html" class="title">Functional Reactive Programming on Mobile: A Rosetta Stone</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">NICK TINSLEY</div>
+                    <div class="entry-content"><p>One of the newer programming paradigms we have been enthusiastic to adopt is functional reactive programming, which combines functional programming and reactive programming.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Oct 24</div>
+                    <a href="/blog.html" class="title">Implementing SSL/TLS for All Squarespace Sites</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">FRANKLIN ANGULO</div>
+                    <div class="entry-content"><p>At Squarespace, we believe we are responsible for providing a platform on which customers and their visitors can be assured a secure browsing experience. Today, we’re proudly announcing completely free Secure Sockets Layer/Transport Layer Security (SSL/TLS) for all custom domains on our platform.
+                    </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Oct 3</div>
+                    <a href="/blog.html" class="title">The Squarespace Template Compiler</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">PATRICK HENSLEY</div>
+                    <div class="entry-content"><p>In early 2013, we began constructing a replacement template compiler in Java, Squarespace's main development language. The new compiler, now open sourced, was designed and implemented from scratch, which enabled several improvements to be made.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Sep 1</div>
+                    <a href="/blog.html" class="title">Turbocharging Our UI Tests</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">MIKE WRIGHTON</div>
+                    <div class="entry-content"><p>Automated UI tests are a crucial part of our QA process. Before going to production, we run a set of smoke tests which navigate around parts of the UI, recording screenshots and comparing them against a set of golden images. If a significant mismatch occurs, we consider the test failed and halt deploys while we investigate the issue.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Aug 4</div>
+                    <a href="/blog.html" class="title">The Developer Platform Gets Local</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">COLE KRUMBHOLZ</div>
+                    <div class="entry-content"><p>Today, we’re announcing a new developer tool called the Squarespace Local Development Server. With it, developers can preview changes to template code locally (on their computer) before pushing them to a live website. </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Jul 22</div>
+                    <a href="/blog.html" class="title">Data Traceability and Lineage</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">MATT SOLOMON</div>
+                    <div class="entry-content"><p>Data scientists, business operations, finance, and marketing teams are all working off our curated data stores to make critical decisions about the direction of the business, and there will inevitably come a time when somebody looks at a report and asks: "How do we know these numbers are correct?".</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Jul 22</div>
+                    <a href="/blog.html" class="title">Building an eCommerce Tax Engine</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">JULIAN APPLEBAUM</div>
+                    <div class="entry-content"><p>As a DIY platform, the approach Squarespace takes with taxes is to let merchants enter in the rates they need to collect, then provide a calculator that can apply those rates to a shopping cart. Squarespace’s role is thus not to know the exact details of a given tax system, but rather, to provide a tool that can effectively model the most common ones.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Jul 22</div>
+                    <a href="/blog.html" class="title">Introducing the Squarespace Engineering Blog</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">FRANKLIN ANGULO</div>
+                    <div class="entry-content"><p>At Squarespace, our mission is to provide creative tools that help anyone bring their ideas to life. In this blog you'll learn about the ups and downs of our engineering endeavors.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Nov 23</div>
+                    <a href="/blog.html" class="title">Forum Fronting</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">Jacob angel</div>
+                    <div class="entry-content"><p>Every other Wednesday, the Frontend Engineers at Squarespace convene in a large room to hash out these issues. We discuss and shop around new technologies and patterns. We decide which haircuts to give our yaks, and what shade of gray looks best on our bike shed.
+                    </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Nov 1</div>
+                    <a href="/blog.html" class="title">Functional Reactive Programming on Mobile: A Rosetta Stone</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">NICK TINSLEY</div>
+                    <div class="entry-content"><p>One of the newer programming paradigms we have been enthusiastic to adopt is functional reactive programming, which combines functional programming and reactive programming.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Oct 24</div>
+                    <a href="/blog.html" class="title">Implementing SSL/TLS for All Squarespace Sites</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">FRANKLIN ANGULO</div>
+                    <div class="entry-content"><p>At Squarespace, we believe we are responsible for providing a platform on which customers and their visitors can be assured a secure browsing experience. Today, we’re proudly announcing completely free Secure Sockets Layer/Transport Layer Security (SSL/TLS) for all custom domains on our platform.
+                    </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Oct 3</div>
+                    <a href="/blog.html" class="title">The Squarespace Template Compiler</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">PATRICK HENSLEY</div>
+                    <div class="entry-content"><p>In early 2013, we began constructing a replacement template compiler in Java, Squarespace's main development language. The new compiler, now open sourced, was designed and implemented from scratch, which enabled several improvements to be made.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Sep 1</div>
+                    <a href="/blog.html" class="title">Turbocharging Our UI Tests</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">MIKE WRIGHTON</div>
+                    <div class="entry-content"><p>Automated UI tests are a crucial part of our QA process. Before going to production, we run a set of smoke tests which navigate around parts of the UI, recording screenshots and comparing them against a set of golden images. If a significant mismatch occurs, we consider the test failed and halt deploys while we investigate the issue.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Aug 4</div>
+                    <a href="/blog.html" class="title">The Developer Platform Gets Local</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">COLE KRUMBHOLZ</div>
+                    <div class="entry-content"><p>Today, we’re announcing a new developer tool called the Squarespace Local Development Server. With it, developers can preview changes to template code locally (on their computer) before pushing them to a live website. </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Jul 22</div>
+                    <a href="/blog.html" class="title">Building an eCommerce Tax Engine</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">JULIAN APPLEBAUM</div>
+                    <div class="entry-content"><p>As a DIY platform, the approach Squarespace takes with taxes is to let merchants enter in the rates they need to collect, then provide a calculator that can apply those rates to a shopping cart. Squarespace’s role is thus not to know the exact details of a given tax system, but rather, to provide a tool that can effectively model the most common ones.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Jul 22</div>
+                    <a href="/blog.html" class="title">Building an eCommerce Tax Engine</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">
+                    <div class="author">JULIAN APPLEBAUM</div>
+                    <div class="entry-content"><p>As a DIY platform, the approach Squarespace takes with taxes is to let merchants enter in the rates they need to collect, then provide a calculator that can apply those rates to a shopping cart. Squarespace’s role is thus not to know the exact details of a given tax system, but rather, to provide a tool that can effectively model the most common ones.</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="post">
+                <div class="titles">
+                    <div class="date">Jul 22</div>
+                    <a href="/blog.html" class="title">Introducing the Squarespace Engineering Blog</a>
+                    <hr class="hr-2">
+                </div>
+                <div class="entry-text">s
+                    <div class="author">FRANKLIN ANGULO</div>
+                    <div class="entry-content"><p>At Squarespace, our mission is to provide creative tools that help anyone bring their ideas to life. In this blog you'll learn about the ups and downs of our engineering endeavors.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav id="pagination">
+        <p>
+            <a href="page-2.html">Page 2</a>
+        </p>
+    </nav>
+</div><!-- List items -->
+
+<script type="text/javascript" src="/js/app.min.js"></script>
+</body>
+</html>

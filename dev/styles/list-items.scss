@@ -1,0 +1,201 @@
+.list-items {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    .space {
+        margin-top: 50px;
+    }
+}
+
+.list-items .post, .related-posts #related-posts .related-posts-item .post {
+    background-color: lighten(#f7f7f7, 2%);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    .titles {
+        padding: 22px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        .date {
+            text-transform: uppercase;
+            font-size: 12px;
+            padding-bottom: 7px;
+            color: #888;
+            display: block;
+        }
+        .title {
+            font-size: 19px;
+            font-weight: 400;
+            text-align: left;
+            color: darken(#888, 37%);
+            line-height: 1.6;
+            display: block;
+        }
+        .hr-2 {
+            width: 70px;
+            margin: 8px 0 5px;
+            border-top: 2px solid darken(#eee, 25%);
+        }
+    }
+    .entry-text {
+        padding: 0 22px 25px;
+        .author {
+            color: #888;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: bolder;
+            padding-bottom: 10px;
+            text-align: justify;
+            display: block;
+        }
+        .entry-content {
+                line-height: 1.6em;
+                color: #888;
+                font-size: 16px;
+        }
+    }
+}
+
+.grid {
+    /* clearfix */
+    &:after {
+        display: block;
+        clear: both;
+    }
+    .grid-item {
+        box-sizing: border-box;
+        margin-bottom: 1.2%;
+        float: left;
+        width: 32.67%;
+    }
+    .grid-sizer {
+        width: 32.67%;
+    }
+    .gutter-sizer {
+        width: 1%;
+    }
+
+}
+
+.hr-1 {
+    width: 200px;
+    border-top: 1px solid darken(#eee, 25%);
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .list-items {
+        margin-top: 25px;
+        .space {
+            margin-top: 15px;
+        }
+        .grid-item {
+            width: 50%;
+        }
+    }
+    .hr-1 {
+        border-top: 1px solid darken(#eee, 25%);
+        width: 50%;
+    }
+    .list-items {
+        width: 100%;
+    }
+    .grid {
+        .grid-item {
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            float: left;
+            width: 49%;
+        }
+        .grid-sizer {
+            width: 49%;
+        }
+        .gutter-sizer {
+            width: 2%;
+        }
+    }
+    .author-profile {
+        width: 60% !important;
+        margin: auto;
+        background-color: #eee;
+        .author-item {
+            text-align: center;
+            padding: 10%;
+            .img-author img {
+                border-radius: 50%;
+            }
+            .author-name {
+                margin: 20px 0 30px;
+                color: #888;
+                font-size: 15px;
+            }
+            .author-bio {
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .grid {
+        margin: 0 auto;
+        .grid-item {
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            float: left;
+            width: 100%;
+        }
+        .grid-sizer {
+            width: 100%;
+        }
+        .gutter-sizer {
+            width: 0%;
+        }
+    }
+    .author-profile {
+        width: 100% !important;
+        margin: auto;
+        background-color: #eee;
+        .author-item {
+            text-align: center;
+            padding: 15%;
+            .img-author img {
+                border-radius: 50%;
+            }
+            .author-name {
+                margin: 20px 0 30px;
+                color: #888;
+                font-size: 15px;
+            }
+            .author-bio {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.author-profile {
+    width: 40%;
+    margin: auto;
+    background-color: #eee;
+    .author-item {
+        text-align: center;
+        padding: 10%;
+        .img-author img {
+            border-radius: 50%;
+        }
+        .author-name {
+            margin: 20px 0 30px;
+            color: #888;
+            font-size: 15px;
+        }
+        .author-bio {
+            font-size: 16px;
+        }
+    }
+}
